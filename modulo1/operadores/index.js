@@ -92,19 +92,20 @@
 
 /* Exercicio 4*/
 
-let umNumero = Number(prompt("Digite um número"))
-let outroNumero = Number(prompt("Digite outro numero"))
+let umNumero = Number(prompt("Digite um número par"))
+let outroNumero = Number(prompt("Digite outro número múltiplo do primeiro"))
 
-console.log (umNumero > outroNumero)
-console.log (umNumero === outroNumero)
+console.log ("O primeiro numero é maior que segundo?", umNumero > outroNumero)
+console.log ("O primeiro numero é igual ao segundo?", umNumero === outroNumero)
 
-const divisao1 = umNumero / outroNumero
+let divisao1 = umNumero % outroNumero
+let resultado = divisao1 === 0
 
-console.log (divisao1 > 0)
+console.log ("O primeiro numero é divisível pelo segundo?", resultado)
 
-const divisao2 = outroNumero / umNumero
-
-console.log (divisao2 > 0)
+let divisao2 = outroNumero % umNumero
+let resultado2 = divisao2 !== 0
+console.log ("O segundo numero é divisível pelo primeiro?", resultado2)
 
 /*Desafio
 
