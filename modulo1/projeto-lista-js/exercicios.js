@@ -30,12 +30,19 @@ function calculaAreaRetangulo() {
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
+  let anoAtual = prompt("Em que ano estamos?")
+  let anoNascimento = prompt("Em que ano você nasceu?")
+
+  let idade = (anoAtual - anoNascimento)
+  console.log(idade)
 
 }
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
+    return (peso / (altura * altura))
+  
 
 }
 
@@ -44,11 +51,23 @@ function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
 
+  let nome = prompt("Qual seu nome?")
+  let idade = prompt("Qual sua idade?")
+  let email = prompt("Qual seu e-mail?")
+  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
+
 }
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
+
+  let cor1 = prompt("Qual sua primeira cor favorita?")
+  let cor2 = prompt("Qual sua segunda cor favorita?")
+  let cor3 = prompt("Qual sua terceira cor favorita?")
+  let coresFavoritas = [cor1, cor2, cor3]
+  console.log(coresFavoritas)
+
 
 }
 
@@ -56,35 +75,57 @@ function imprimeTresCoresFavoritas() {
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
 
+  return string.toUpperCase()
+
 }
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+  
+  return (custo / valorIngresso)
 
+    
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
 
+    return string1.length === string2.length 
+
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
-
+  return array[0]
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
+    
+      return array[array.length -1]
+    
 
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
+
+  let elemento1 = array[1]
+  let ultimoElemento = array[array.length -1]
+  array.unshift(ultimoElemento)
+  array.splice(1,1)[elemento1]
+  
+  
+  
+  
+  
+  
+  
 
 }
 
