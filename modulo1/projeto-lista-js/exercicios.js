@@ -115,23 +115,21 @@ function retornaUltimoElemento(array) {
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
 
-  let elemento1 = array[1]
-  let ultimoElemento = array[array.length -1]
-  array.unshift(ultimoElemento)
-  array.splice(1,1)[elemento1]
+  let posInic = array[0]// 1
+  let posFinal = array[array.length -1] // 5
+  array[0] = array[array.length-1] // 5
+  array[array.length-1] = posInic // 1
+  return array
   
-  
-  
-  
-  
-  
-  
-
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
+      let m = string1.toUpperCase()
+      let m2 = string2.toUpperCase()
+      let comp = m === m2
+      return comp
 
 }
 
