@@ -1,0 +1,57 @@
+7 passos fundamentais para a resolução de problemas e como eles podem nos ajudar a solucionar nossos desafios de programação.
+
+
+1 - Ter atenção no Enunciado
+
+Ler com atenção para garantir o entendimento correto do que é pedido, caso tenha alguma palavra nova, pesquisar sobre o seu significado para ter certeza do entendimento da palavra no contexto do enunciado.
+Entender o que o código deve fazer e verificar quais informações são únicas.
+
+2 - Retirar informações relevantes
+
+Separar informações relevantes, palavras chaves e parâmetros que podem ser tranformados em valores no código, verbos que serão funções e condições que serão valores booleanos.
+
+3 - Pensar Entradas e Saídas
+
+Criar uma expectativa do programa que está sendo desenvolvido, pensar em exemplos de entradas e quais serão suas saídas.
+- Como e quais serãos os dados recebidos?
+- Quais devem ser as possíveis respostas(formato) código?
+- Boa prática: criar uma função com as entradas e saídas pensadas.
+
+
+4 - Fazer um esquema Visual
+
+Fluxogramas, diagramas ou esquemas de texto com tópicos para entender melhor os passos que deverão ser seguidos
+- Crie exemplos de situações antes
+- Monte diagramas com a lógica do código
+- Pense nos possíveis cenários e coloque inputs e outputs
+
+5 - Criar Código Feio
+
+Chegar na resolução do problema sem se preocupar com a estética do código
+- Arriscar todas possíveis soluções pensadas
+- Escolha as melhores soluções e ponha em sua IDE
+- Teste cada uma das soluções, até obter uma resposta como solicitada no enunciado
+
+
+6 - Testar Força-Bruta
+
+Testar o código das mais variadas maneiras
+- Solução óbvia e pouca performática
+- Escrever no nosso idioma o programa
+- Transcrever para a linguagem de programação desejada
+
+
+7 - Refatorar
+
+Deixar o código mais legível
+- Conferir se foram usados bons nomes para a variáveis
+- Separar as funções de cada elemento
+- Comece com as etapas principais
+
+
+
+
+
+
+
+
