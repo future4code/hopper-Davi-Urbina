@@ -39,6 +39,10 @@ div img {
 
 .botao-amarelo {
     
+    
+    display: block;
+    margin: auto;
+    margin-top: 100px;
     background-color: #ffaf43;
     width: 250px;
     height: 40px;
@@ -53,6 +57,7 @@ div img {
 }
 
 .container {
+    
     height: 500px;
     text-align: center;
 }
@@ -69,11 +74,14 @@ div img {
   **/
 
 #container-de-descricao {
+
+    
     background-color: #2274a5;
     color: white;
 }
 
 #container-de-descricao>ol {
+    
     padding: 15px 0px;
 }
 
