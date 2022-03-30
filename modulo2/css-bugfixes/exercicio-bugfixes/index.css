@@ -52,6 +52,10 @@ div img {
     
 }
 
+/* .botao-amaralo:active{
+    color: white;
+} */
+
 .botao-amarelo:hover {
     background-color: #c44f00;
 }
@@ -122,6 +126,11 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+}
+
+td button:hover {
+    background-color: rgb(177, 177, 18);
+    
 }
 
 .container-do-search {
