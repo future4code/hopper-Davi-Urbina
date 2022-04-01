@@ -1,0 +1,75 @@
+
+/* Geral */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Cabeçalho */
+header {
+    box-shadow: 10px 10px 20px 3px darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040447;
+    color: white;
+
+}
+
+header>div>h2 {
+    padding: 20px;
+}
+
+header>div>div>a {
+    color: white;
+}
+
+.img-logo{
+    width: 100px;
+}
+
+.logo-nome{
+    display: flex;
+    align-items: center;
+}
+
+.links-direita {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+    
+    
+}
+
+.menu-direita {
+    padding: 0px 20px;
+}
+
+
+/* Main */
+.apresentação{
+    padding: 100px 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+
+}
+
+.foto-perfil {
+    width: 450px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #040447;
+    color: #FFF;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 50px;
+}
