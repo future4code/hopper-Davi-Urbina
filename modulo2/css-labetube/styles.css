@@ -8,8 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    padding: 0px 10px;
+    height: 40px;
+    padding: 20px 20px;
+    /* margin: auto; */
 }
 
 .botão-busca {
@@ -20,7 +21,7 @@
 body {
     display: grid;
     grid-template-rows:  1fr 4fr 1fr;
-    height: 120vh;
+    height: 100vh;
 }
 
 
@@ -40,7 +41,7 @@ body {
 }
 
 .video {
-    border: 1px solid ;
+    /* border: 1px solid ; */
     text-align: center;
     
     
@@ -48,15 +49,24 @@ body {
 
 footer {
     background-color: grey;
-    height: 50px;
-    width: 100vw;
+    width: 100%;
     padding: 5px 5px;
     position: fixed;
     bottom: 0;
     /* text-align: center; */
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    margin: auto;
     
+
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container {
+            display: flex;
+            flex-direction: column;
+
+    }
 
 }
